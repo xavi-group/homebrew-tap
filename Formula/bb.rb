@@ -1,22 +1,22 @@
 class Bb < Formula
   desc "blackbear CLI — your life, from the terminal"
   homepage "https://blackbear.app/agents/"
-  version "0.25.0"
+  version "0.26.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://blackbear-releases.nyc3.cdn.digitaloceanspaces.com/cli/v0.25.0/bb-v0.25.0-darwin-arm64.tar.gz"
-      sha256 "e35f2073873d65619631a319e2ed2c526dfcbdd5784f18e84a0525540423cec9"
+      url "https://blackbear-releases.nyc3.cdn.digitaloceanspaces.com/cli/v0.26.0/bb-v0.26.0-darwin-arm64.tar.gz"
+      sha256 "1b3f90ffff2caf9ea0cc39de935c754e1d26838ab730e2e4212c0eb6d0002c62"
     else
-      url "https://blackbear-releases.nyc3.cdn.digitaloceanspaces.com/cli/v0.25.0/bb-v0.25.0-darwin-arm64.tar.gz"
-      sha256 "e35f2073873d65619631a319e2ed2c526dfcbdd5784f18e84a0525540423cec9"
+      url "https://blackbear-releases.nyc3.cdn.digitaloceanspaces.com/cli/v0.26.0/bb-v0.26.0-darwin-arm64.tar.gz"
+      sha256 "1b3f90ffff2caf9ea0cc39de935c754e1d26838ab730e2e4212c0eb6d0002c62"
     end
   end
 
   on_linux do
-    url "https://blackbear-releases.nyc3.cdn.digitaloceanspaces.com/cli/v0.25.0/bb-v0.25.0-linux-amd64.tar.gz"
-    sha256 "ec6fc6c5f038a858dab90d46af350f3446bcb791503a569610233c6e26d85ce6"
+    url "https://blackbear-releases.nyc3.cdn.digitaloceanspaces.com/cli/v0.26.0/bb-v0.26.0-linux-amd64.tar.gz"
+    sha256 "d19da137e77baf795df2b48326fe0b7aa7f5916cfa8e3aa6390613ac22682b60"
   end
 
   def install
